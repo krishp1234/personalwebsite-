@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Krish Patel | Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f9f9f9;
+    }
+    header {
+      background-color: #4a90e2;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin: 0.5rem 0 0;
+      font-size: 1.2rem;
+    }
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    section h2 {
+      border-bottom: 2px solid #4a90e2;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+      font-size: 1.8rem;
+      color: #4a90e2;
+    }
+    .skills-list, .experience-list, .projects-list {
+      list-style: none;
+      padding: 0;
+    }
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .skills-list li {
+      background-color: #e1f0ff;
+      color: #004080;
+      padding: 0.5rem 1rem;
+      margin: 0.5rem;
+      border-radius: 4px;
+      font-size: 0.9rem;
+    }
+    .experience-list li, .projects-list li {
+      margin-bottom: 1rem;
+    }
+    .experience-list .role-title {
+      font-weight: bold;
+      font-size: 1rem;
+    }
+    .experience-list .company {
+      font-style: italic;
+      color: #555;
+    }
+    .experience-list .dates-location {
+      font-size: 0.9rem;
+      color: #777;
+    }
+    .projects-list a {
+      color: #4a90e2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .projects-list a:hover {
+      text-decoration: underline;
+    }
+    .contact p {
+      margin: 0.5rem 0;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem 0;
+      background-color: #f1f1f1;
+      font-size: 0.9rem;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      header p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Krish Patel</h1>
+    <p>Computer Engineering Student at University of Michigan</p>
+  </header>
+
+  <div class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hi, I’m Krish. I’m a sophomore majoring in Computer Engineering at the University of Michigan. I’m passionate about embedded systems, chip design, and software development. I enjoy building practical projects, learning new technologies, and collaborating on hands-on work that solves real problems.</p>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <ul class="experience-list">
+        <li>
+          <div class="role-title">Information Technology Intern</div>
+          <div class="company">Rheinmetall</div>
+          <div class="dates-location">May 2025 – Present · Lansing, Michigan, United States · On-site</div>
+        </li>
+        <li>
+          <div class="role-title">Software Engineer | Build Student Consultant</div>
+          <div class="company">The Build Fellowship by Open Avenues</div>
+          <div class="dates-location">Mar 2025 – May 2025 · New York, United States · Remote</div>
+        </li>
+        <li>
+          <div class="role-title">Merchandise Associate</div>
+          <div class="company">TJ Maxx & HomeGoods</div>
+          <div class="dates-location">Jul 2024 – Aug 2024 · Canton, Michigan, United States · On-site</div>
+        </li>
+        <li>
+          <div class="role-title">Hardware & Web Design</div>
+          <div class="company">Student Information Technology Services</div>
+          <div class="dates-location">Sep 2023 – May 2024 · Canton, Michigan, United States · On-site</div>
+        </li>
+        <li>
+          <div class="role-title">Teaching Assistant (TA)</div>
+          <div class="company">Math Corps</div>
+          <div class="dates-location">Jun 2023 – Aug 2023 · University of Michigan, Ann Arbor, United States · On-site</div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</n2>
+      <ul class="skills-list">
+        <li>C & C++</li>
+        <li>Python</li>
+        <li>Java</li>
+        <li>HTML & CSS</li>
+        <li>JavaScript</li>
+        <li>Three.js</li>
+        <li>Linux</li>
+        <li>Git & GitHub</li>
+        <li>KiCad (PCB Design)</li>
+        <li>Raspberry Pi</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul class="projects-list">
+        <li>
+          <a href="#">MSU Rocketry Flight Computer</a><br>
+          Programmed a Raspberry Pi-based flight computer in Python for the MSU Rocketry team, improving telemetry accuracy by 15%.
+        </li>
+        <li>
+          <a href="#">Dynamic Intrusion Detection System</a><br>
+          Built a real-time intrusion detection and prevention system for network security using Python and open-source tools.
+        </li>
+        <li>
+          <a href="#">3D Visualization Tool</a><br>
+          Developed an interactive web-based graphics tool with Three.js to visualize 3D models for the Build Fellowship.
+        </li>
+        <!-- Add more projects as needed -->
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:krish.patel@example.com">krish.patel@example.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/krishpatel" target="_blank">linkedin.com/in/krishpatel</a></p>
+      <p>GitHub: <a href="https://github.com/krishpatel" target="_blank">github.com/krishpatel</a></p>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 Krish Patel. All rights reserved.
+  </footer>
+</body>
+</html>
